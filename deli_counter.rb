@@ -1,6 +1,6 @@
 def line(deliline)
   
-  if deliline.empty?
+  if deliline.empty? == true
     return "The line is currently empty."
   else
     deliline.each_with_index {|name, index|
