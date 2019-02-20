@@ -19,7 +19,7 @@ def now_serving(deliline)
   if deliline.empty?
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{deliline.shift}"
+    puts "Currently serving #{deliline.shift}."
   end
 end
 
