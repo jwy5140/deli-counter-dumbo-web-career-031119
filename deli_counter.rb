@@ -14,3 +14,12 @@ def take_a_number(deliline, name)
   deliline.push(name)
   puts "Welcome, #{name}. You are number #{deliline.size+1} in line."
 end
+
+def now_serving(deliline)
+  if deliline.empty?
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{deliline.shift}"
+  end
+end
+
