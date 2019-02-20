@@ -9,4 +9,6 @@ def line(deliline)
     puts current_line
   end
 end
-      
+
+def take_a_number(deliline, name)
+  
