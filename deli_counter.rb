@@ -12,7 +12,7 @@ end
 
 def take_a_number(deliline, name)
   deliline.push(name)
-  puts "Welcome, #{name}. You are number #{deliline.size+1} in line."
+  puts "Welcome, #{name}. You are number #{deliline.size} in line."
 end
 
 def now_serving(deliline)
