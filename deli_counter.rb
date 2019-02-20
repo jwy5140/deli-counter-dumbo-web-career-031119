@@ -5,7 +5,7 @@ def line(deliline)
   else
     current_line.concat(":")
     deliline.each_with_index {|name, index|
-    current_line.concat(" #{index}. #{name}")}
+    current_line.concat(" #{index+1}. #{name}")}
     puts current_line
   end
 end
