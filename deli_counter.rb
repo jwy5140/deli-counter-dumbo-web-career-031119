@@ -1,1 +1,11 @@
-# Write your code here.
+def line(deliline)
+  
+  if deliline.size == 0 
+    return "The line is currently empty."
+  else
+    deliline.each_with_index {|name, index|
+    deliline[index-1] = " #{index}. #{name}"}
+  end
+  return "The line is currently:#{deliline}"
+end
+      
